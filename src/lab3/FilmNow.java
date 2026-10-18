@@ -9,5 +9,8 @@ public class FilmNow {
         this.hotList = new Filme[10];
     }
 
-    public boolean adicionaFilme
+    public boolean adicionaFilme (String nome, int anoDeLançamento, String local, int posiçãoFilmeLista){
+        this.filmes[posiçãoFilmeLista-1] = new Filme(String nome, int anoDelançamento, String local, int posiçãoFilmeLista);
+
+    }
 }
